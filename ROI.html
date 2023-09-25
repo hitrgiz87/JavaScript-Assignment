@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Website</title>
+    <header>
+    <nav>
+      <a href="/" class="btn">Home</a>
+      <a href="/aboutPage.html" class="btn">About Page</a>
+      <a href="/ContactPage.html" class="btn">Contact Page</a>
+      <a href="/ROI.html" class="btn">ROI Calculator</a>
+    </nav>
+  </header>
+</head>
+<body>
+    <div class="article">
+        <h2>Article Title</h2>
+        <p>This is some initial content.</p>
+        <button class="toggle-button">Read More</button>
+        <div class="extended-content">
+            <p>This is the extended content that can be toggled.</p>
+        </div>
+    </div>
+
+    <div class="roi-calculator">
+        <h2>ROI Calculator</h2>
+        <input type="number" id="initial-investment" placeholder="Initial Investment">
+        <input type="number" id="revenue" placeholder="Revenue">
+        <input type="number" id="expenses" placeholder="Expenses">
+        <button id="calculate-roi">Calculate ROI</button>
+        <p id="roi-result"></p>
+    </div>
+
+   
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

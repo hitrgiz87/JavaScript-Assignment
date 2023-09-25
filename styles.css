@@ -1,0 +1,93 @@
+/* styles.css */
+/* Header and Navigation */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 2.5px solid rgb(116, 114, 114);
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+/* Custom font for headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'YourFontName', sans-serif;
+}
+
+/* Custom font for paragraphs */
+p {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Change the font color */
+body {
+  color: #333;
+}
+/* Background color for sections */
+section {
+  background-color: rgba(161, 231, 208, 0.63);
+  padding: 10px;
+}
+
+
+
+
+/* Background color for the header */
+header {
+  background-color: rgb(224, 87, 87);
+  color: white;
+  padding: 20px;
+}
+/* Apply styles for screens smaller than 768px */
+@media (max-width: 768px) {
+  header {
+      padding: 10px;
+  }
+
+  /* Adjust other styles as needed */
+}
